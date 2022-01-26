@@ -16,7 +16,7 @@ void MatrixSolver::solve(const Eigen::MatrixXd &A, const Eigen::VectorXd &b,
     LU.compute(A);
     x = LU.solve(b);
   } else if (_decompositionType == QR) {
-    HouseholderQR<MatrixXd> QR;
+    FullPivHouseholderQR<MatrixXd> QR;
     QR.compute(A);
     x = QR.solve(b);
   } else if (_decompositionType == LU2) {
