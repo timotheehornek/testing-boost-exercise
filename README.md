@@ -19,6 +19,7 @@ A simple demo code to read dense matrices from files and solve linear systems wi
   - `MatrixSolver.hpp/cpp`: A convenience hull to solve dense matrix system by matrix decompositions
   - `matrixIO.hpp/cpp`: IO methods to read Eigen matrices from or write them to csv files
   - `main.cpp`: Main file
+- `tests`: Unit tests
   
 ## Building
 
@@ -37,6 +38,10 @@ $ make -j
 - [CMake](https://cmake.org/): At least version 3.12
 - [Eigen](https://eigen.tuxfamily.org/index.php): At least version 3.2
 - [yaml-cpp](https://github.com/jbeder/yaml-cpp): At least version 0.6
+
+For unit testing moreover:
+
+- [Boost Unit Test Framework](https://www.boost.org/doc/libs/1_78_0/libs/test/doc/html/index.html): Should work with most recent versions. The code was tested with 1.71.
 
 ## Running
 
