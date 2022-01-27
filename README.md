@@ -6,8 +6,8 @@ A simple demo code to read dense matrices from files and solve linear systems wi
 
 - `cmake`: Third-party CMake modules
 - `CMakeLists.txt`: CMake configuration file
-- `config.yml`: SIDEMADE configuration file 
 - `data`: Various dense matrices
+  - `config.yml`: SIDEMADE configuration file 
   - `m3.csv`: A 3x3 matrix with randomly generated entries
   - `m10.csv`: An ill-conditioned 10x10 [Hilbert matrix](https://math.nist.gov/MatrixMarket/deli/Hilbert/)
   - `m50.csv`: A 50x50 FEM **mass matrix** for a [1D problem with Lagrange basis](https://people.sc.fsu.edu/~jburkardt/m_src/fem1d_lagrange/fem1d_lagrange.html)
